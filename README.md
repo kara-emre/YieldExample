@@ -1,5 +1,3 @@
-İşte `BenchmarkDotNet` kullanılarak yapılan performans test sonuçlarının güncellenmiş metni:
-
 ---
 
 Bu çıktıda, `BenchmarkDotNet` kullanılarak yapılan iki metodun (yield kullanan ve kullanmayan) performans test sonuçları yer almaktadır.
