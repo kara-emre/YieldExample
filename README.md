@@ -8,8 +8,8 @@ Bu çıktıda, `BenchmarkDotNet` kullanılarak yapılan iki metot için (yield k
 ### Metodların Performans Sonuçları
 | Method          | Mean     | Error     | StdDev    |
 |---------------- |---------:|----------:|----------:|
-| YieldExample    | 2.047 ms | 0.0324 ms | 0.0303 ms |
-| NonYieldExample | 5.390 ms | 0.1057 ms | 0.1766 ms |
+| YieldExample    | 2.091 ms | 0.0410 ms | 0.0770 ms |
+| NonYieldExample | 5.630 ms | 0.1067 ms | 0.1530 ms |
 
 - **Mean (Ortalama)**: Her iki metodun ortalama çalıştırma süresi.
   - `YieldExample`: 2.047 ms
@@ -46,3 +46,4 @@ Bu çıktıda, `BenchmarkDotNet` kullanılarak yapılan iki metot için (yield k
 - **Performans Farkı**: `YieldExample` metodu, `NonYieldExample` metoduna göre çok daha hızlıdır. Bu, `yield return` kullanımının büyük veri kümeleriyle çalışırken daha verimli bir yol sunduğunu gösteriyor. `Yield` kullanarak bellek verimliliği ve daha hızlı işlem süreleri sağlamak mümkündür.
   
 Bu sonuçlar, `yield return` kullanımının performans avantajını açıkça ortaya koymaktadır. 
+![image](https://github.com/user-attachments/assets/cee03b1f-1e6d-4ada-9a3a-7282cf99df42)
