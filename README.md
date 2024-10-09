@@ -1,6 +1,4 @@
----
-
-Bu çıktıda, `BenchmarkDotNet` kullanılarak yapılan iki metodun (yield kullanan ve kullanmayan) performans test sonuçları yer almaktadır.
+Bu çalışmamızda, `BenchmarkDotNet` kullanılarak yapılan iki metodun (yield kullanan ve kullanmayan) performans test sonuçları yer almaktadır.
 
 ### Genel Bilgiler
 - **.NET Versiyonu**: 8.0.8
@@ -34,4 +32,3 @@ Bu çıktıda, `BenchmarkDotNet` kullanılarak yapılan iki metodun (yield kulla
 
 ![image](https://github.com/user-attachments/assets/cee03b1f-1e6d-4ada-9a3a-7282cf99df42)
 
---- 
