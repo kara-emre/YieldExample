@@ -5,6 +5,7 @@ namespace YieldExample
 
     public class YieldVsNonYieldBenchmark
     {
+        //Test edeceğimiz user adedi
         const int generateUserQuantity = 100000;
 
         /// <summary>
